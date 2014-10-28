@@ -1,6 +1,5 @@
 package com.vungle.publisherSampleAndroid;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import com.vungle.publisher.VunglePub;
