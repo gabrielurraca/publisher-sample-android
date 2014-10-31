@@ -21,9 +21,10 @@ android {
 
 	sourceSets {
 		main {
+			assets.srcDirs = ['assets']
+			java.srcDirs = ['src']
 			manifest.srcFile 'AndroidManifest.xml'
 			res.srcDirs = ['res']
-			assets.srcDirs = ['assets']
 		}
 	}
 
@@ -37,7 +38,7 @@ android {
 	buildTypes {
 		release {
 			runProguard true
-			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
 		}
 	}
 	lintOptions {
