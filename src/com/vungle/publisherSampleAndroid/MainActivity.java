@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 		// initialize the Publisher SDK
 		vunglePub.init(this, app_id);
 
-		vunglePub.setEventListeners(vungleListener);
+		vunglePub.setEventListener(vungleListener);
 
 		// PLAY AD WITH DEFAULT OPTIONS
 
@@ -78,7 +78,7 @@ public class MainActivity extends Activity {
 		}
 
 		@Override
-		public void onAdPlayableChanged(boolean isAdAvailable) {
+		public void onCachedAdAvailable() {
 			// Called when ad playability changes.
 		}
 	};
