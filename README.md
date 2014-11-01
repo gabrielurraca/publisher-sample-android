@@ -12,11 +12,11 @@ Supported build systems:
 * [Gradle](#gradle)
 * [Ant](#ant)
 
-## <a href="androidstudio"></a>Importing into Android Studio
+## <a name="androidstudio"></a>Importing into Android Studio
 
 0. Choose `Import Project...` and navigate to the `publisher-sample-android` directory.  Done!
 
-## <a href="eclipse"></a>Importing into Eclipse
+## <a name="eclipse"></a>Importing into Eclipse
 
 0. Import `publisher-sample-android` using:
 
@@ -48,7 +48,7 @@ Supported build systems:
   Add the Google Play Services project as a library.
 0. Clean and rebuild `publisher-sample-android`.  This should fix the project errors.
 
-## <a href="gradle"></a>Building with Gradle
+## <a name="gradle"></a>Building with Gradle
 
 0. Build the sample app using:
 
@@ -61,7 +61,7 @@ Supported build systems:
   ./gradlew tasks
   ```
 
-## <a href="ant"></a>Building with Ant
+## <a name="ant"></a>Building with Ant
 
 0. Build the sample app using:
 
