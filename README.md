@@ -14,7 +14,9 @@ Supported build systems:
 
 ## <a name="androidstudio"></a>Importing into Android Studio
 
-0. Choose `Import Project...` and navigate to the `publisher-sample-android` directory.  Done!
+0. Choose `Import Project...` and navigate to the `publisher-sample-android` directory.
+
+  Done!
 
 ## <a name="eclipse"></a>Importing into Eclipse
 
