@@ -3,7 +3,7 @@ buildscript {
 		jcenter()
 	}
 	dependencies {
-		classpath 'com.android.tools.build:gradle:0.12.+'
+		classpath 'com.android.tools.build:gradle:0.13.+'
 	}
 }
 
@@ -17,7 +17,7 @@ allprojects {
 
 android {
 	compileSdkVersion 19
-	buildToolsVersion "20.0.0"
+	buildToolsVersion "21.1.1"
 
 	sourceSets {
 		main {
