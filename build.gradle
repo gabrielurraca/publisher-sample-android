@@ -3,11 +3,11 @@ buildscript {
 		jcenter()
 	}
 	dependencies {
-		classpath 'com.android.tools.build:gradle:0.13.+'
+		classpath 'com.android.tools.build:gradle:1.0.0'
 	}
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'android'
 
 allprojects {
 	repositories {
@@ -16,8 +16,8 @@ allprojects {
 }
 
 android {
-	compileSdkVersion 19
-	buildToolsVersion "21.1.1"
+	compileSdkVersion 21
+	buildToolsVersion "21.1.2"
 
 	sourceSets {
 		main {
@@ -37,7 +37,7 @@ android {
 	}
 	buildTypes {
 		release {
-			runProguard true
+			minifyEnabled true
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
 		}
 	}
@@ -48,7 +48,7 @@ android {
 
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
-	compile('com.android.support:appcompat-v7:19.+') {
+	compile('com.android.support:appcompat-v7:21.0.3') {
 		// (1) either copy the  Android support-v4.jar from the Vungle Publisher SDK /libs directory
 		// to your project /libs directory, or
 		// (2) remove this 'exclude' line
