@@ -48,10 +48,6 @@
 			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
 
-		<!-- required service for Vungle video ads -->
-		<service android:name="com.vungle.publisher.VungleService" 
-			android:exported="false"/>
-
 	</application>
 
 </manifest>
